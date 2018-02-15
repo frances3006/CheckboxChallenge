@@ -5,7 +5,7 @@ import { Checkbox } from './checkbox/checbox';
 export class App extends React.Component<{}, {}> {
 
     checkboxChange = (label: string) => {
-        alert(`I was clicked ${label}`)
+        console.log(`I was clicked ${label}`)
     }
     
     render() {
