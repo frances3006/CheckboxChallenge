@@ -1,0 +1,52 @@
+
+
+.wrapper {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.wrapper-disabled {
+    cursor: not-allowed
+}
+  
+
+  .checkbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 3px;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    cursor: pointer;
+
+    border-color: rgb(47, 191, 235);
+  }
+  
+  .checkbox-checked,
+  .checkbox-enter{
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 3px;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px; */
+
+    background-color:   rgb(72, 211, 253);
+    border-color:   rgb(47, 191, 235);
+    cursor: pointer;
+  }
+  
+  .checkbox-disabled{
+    background-color: rgb(207, 196, 196);
+    border-color: rgb(207, 196, 196);
+    cursor: not-allowed;
+  }
+  
